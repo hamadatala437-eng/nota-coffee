@@ -12,9 +12,69 @@ export type Product = {
 };
 // Sample blends: replace names, descriptions, images and prices with your own.
 export const products: Product[] = [
-  { id: "mint", image: "/images/blend-1.svg", name: { ar: "قهوة بالنعناع", fr: "Café à la Menthe" }, desc: { ar: "قهوة مختارة بنكهة النعناع المنعشة.", fr: "Café sélectionné à la menthe fraîche." }, prices: { 250: 0, 500: 0, 1000: 0 } },
-  { id: "cardamom", image: "/images/blend-2.svg", name: { ar: "قهوة بالهيل", fr: "Café à la Cardamome" }, desc: { ar: "نكهة الهيل الدافئة والغنية.", fr: "La chaleur riche de la cardamome." }, prices: { 250: 0, 500: 0, 1000: 0 } },
-  { id: "cinnamon", image: "/images/blend-3.svg", name: { ar: "قهوة بالقرفة", fr: "Café à la Cannelle" }, desc: { ar: "لمسة قرفة طبيعية وعطرية.", fr: "Une touche de cannelle naturelle." }, prices: { 250: 0, 500: 0, 1000: 0 } },
-  { id: "saffron", image: "/images/blend-4.svg", name: { ar: "قهوة بالزعفران", fr: "Café au Safran" }, desc: { ar: "فخامة الزعفران في كل رشفة.", fr: "Le luxe du safran à chaque gorgée." }, prices: { 250: 0, 500: 0, 1000: 0 } },
-  { id: "classic", image: "/images/blend-5.svg", name: { ar: "نوتا كلاسيك", fr: "NOTA Classique" }, desc: { ar: "المزيج الأصلي لقهوة نوتا.", fr: "Le mélange signature de NOTA." }, prices: { 250: 0, 500: 0, 1000: 0 } },
+  {
+    id: "arabica-honduras",
+    image: "/images/blend-1.svg",
+    name: {
+      ar: "أرابيكا هندوراس",
+      fr: "Arabica Honduras"
+    },
+    desc: {
+      ar: "قهوة أرابيكا مختارة من هندوراس، بنكهة متوازنة ورائحة غنية.",
+      fr: "Café Arabica du Honduras, aux arômes riches et équilibrés."
+    },
+    prices: { 250: 0, 500: 0, 1000: 0 }
+  },
+  {
+    id: "robusta-uganda",
+    image: "/images/blend-2.svg",
+    name: {
+      ar: "روبوستا أوغندا",
+      fr: "Robusta Ouganda"
+    },
+    desc: {
+      ar: "قهوة قوية وغنية بالقوام، لعشاق المذاق المركز.",
+      fr: "Un café corsé et intense, pour les amateurs de caractère."
+    },
+    prices: { 250: 0, 500: 0, 1000: 0 }
+  },
+  {
+    id: "robusta-vietnam",
+    image: "/images/blend-3.svg",
+    name: {
+      ar: "روبوستا فيتنام",
+      fr: "Robusta Vietnam"
+    },
+    desc: {
+      ar: "قهوة روبوستا بمذاق قوي وغني، مناسبة للقهوة اليومية.",
+      fr: "Un Robusta puissant et généreux, idéal au quotidien."
+    },
+    prices: { 250: 0, 500: 0, 1000: 0 }
+  },
+  {
+    id: "nota-blend",
+    image: "/images/blend-4.svg",
+    name: {
+      ar: "خليط NOTA",
+      fr: "Mélange NOTA"
+    },
+    desc: {
+      ar: "خلطة خاصة من NOTA COFFEE بمذاق متوازن وشخصية مميزة.",
+      fr: "Un assemblage signature NOTA COFFEE, équilibré et unique."
+    },
+    prices: { 250: 0, 500: 0, 1000: 0 }
+  },
+  {
+    id: "herbal-coffee",
+    image: "/images/blend-5.svg",
+    name: {
+      ar: "قهوة NOTA بالأعشاب",
+      fr: "Café NOTA aux herbes"
+    },
+    desc: {
+      ar: "خليط مبتكر يجمع القهوة مع الأعشاب العطرية لنكهة مميزة.",
+      fr: "Un mélange original de café et d'herbes aromatiques."
+    },
+    prices: { 250: 0, 500: 0, 1000: 0 }
+  }
 ];
