@@ -27,7 +27,7 @@ export const products: Product[] = [
   },
   {
     id: "robusta-uganda",
-  image: "/images/robusta_uganda.jpg",
+image: "/images/roubusta_uganda.jpg",
     name: {
       ar: "روبوستا أوغندا",
       fr: "Robusta Ouganda"
