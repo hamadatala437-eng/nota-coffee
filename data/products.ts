@@ -14,7 +14,7 @@ export type Product = {
 export const products: Product[] = [
   {
     id: "arabica-honduras",
-    image: "/images/blend-1.svg",
+   /images/arabica_honduras.jpg
     name: {
       ar: "أرابيكا هندوراس",
       fr: "Arabica Honduras"
@@ -27,7 +27,7 @@ export const products: Product[] = [
   },
   {
     id: "robusta-uganda",
-    image: "/images/blend-2.svg",
+   /images/robusta_uganda.jpg
     name: {
       ar: "روبوستا أوغندا",
       fr: "Robusta Ouganda"
@@ -40,7 +40,7 @@ export const products: Product[] = [
   },
   {
     id: "robusta-vietnam",
-    image: "/images/blend-3.svg",
+   /images/robusta_vietnam.jpg
     name: {
       ar: "روبوستا فيتنام",
       fr: "Robusta Vietnam"
@@ -53,7 +53,7 @@ export const products: Product[] = [
   },
   {
     id: "nota-blend",
-    image: "/images/blend-4.svg",
+    /images/nota_blend.jpg
     name: {
       ar: "خليط NOTA",
       fr: "Mélange NOTA"
@@ -66,7 +66,7 @@ export const products: Product[] = [
   },
   {
     id: "herbal-coffee",
-    image: "/images/blend-5.svg",
+  /images/coffee_herbs.jpg
     name: {
       ar: "قهوة NOTA بالأعشاب",
       fr: "Café NOTA aux herbes"
